@@ -1,2 +1,2 @@
 # CodeClauseUnitConverter
-Convers value in one unit to value in other unit. 
+Converts value in one unit to value in other unit. 

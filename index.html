@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    UNIT CONVERTER
+  </div>
+  <div class="body11">
+    <div class="container">
+      <div class="changing">
+        <form>
+          <select name="unitconverterlist" id="TEMPSMPL">
+            <option>Select the unit</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Kilogram">Kilogram</option>
+            <option value="Gram">Gram</option>
+            <option value="Centimeter">Centimeter</option>
+            <option value="Meter">Meter</option>
+          </select>
+          <p class="flex-declare">=</p>
+          <select name="unitconverterlistOPST" id="TEMPOPST">
+            <option>Select the unit</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Kilogram">Kilogram</option>
+            <option value="Gram">Gram</option>
+            <option value="Centimeter">Centimeter</option>
+            <option value="Meter">Meter</option>
+
+          </select>
+        </form>
+        <div>
+          <button class="Submit-Button" id="submit-button">SUBMIT</button>
+          <button class="Submit-Button" id="refresh-button" onclick="refresh()">REFRESH</button>
+        </div>
+      </div>
+      <div class="textarea">
+        <input type="text" id="initial-value" class="inpt" placeholder="Initial value ">
+        <p class="flex-declare">=</p>
+        <input type="text" id="final-value" class="inpt" placeholder="Converted value">
+        <div>
+          <button class="Submit-Button" id="submit-button1">CONVERT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="innerpart1">
+      <p class="para">UNIT CONVERSION</p>
+      <p class="defining">Unit conversion is the process of converting a quantity from one unit of measurement to
+        another. It involves changing the numerical value of a measurement while keeping the underlying quantity the
+        same. Unit conversions are commonly used in various fields, including science, engineering, mathematics, and
+        everyday life, to express measurements in different units that are more convenient or relevant for a particular
+        purpose.To perform a unit conversion, you need to know the conversion factor between the two units involved.
+        Conversion factors are derived from the relationship between the two units and are often based on standardized
+        conversion constants or formulas. By multiplying or dividing the original measurement by the appropriate
+        conversion factor, you can obtain the equivalent measurement in the desired unit.Unit conversion is essential
+        for effective communication, comparison, and analysis of measurements across different systems and units of
+        measurement. It allows us to understand and work with quantities in a way that is meaningful and applicable to
+        specific situations.Feel free to use this unit converter.It will give you the most relaible answers within very
+        less period of time span.</p>
+    </div>
+    <div class="innerpart2">
+      <p class="para">IMPOTANT GUIDELINES</p>
+      <ul class="list-creation">
+        <li>It's important to use accurate and reliable conversion factors to ensure the correctness of the conversion
+        </li>
+        <li>Convert units step by step, especially when multiple conversions are required. It's generally more accurate
+          to convert from one unit to an intermediate unit and then to the final desired unit. This helps minimize
+          cumulative rounding errors.</li>
+        <li>Have a clear understanding of the units you are converting from and to. Know the symbols and abbreviations
+          for the units involved, as well as their definitions and relationships.</li>
+        <li>After performing a unit conversion, double-check your results for reasonableness. Verify that the converted
+          value makes sense in the context of the original measurement and</li>
+        <li>Use accurate conversion factors specific to the units you are converting. Consult reliable reference
+          materials or trusted sources to obtain the correct conversion factors. Avoid approximations or estimates that
+          may introduce errors.</li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>
